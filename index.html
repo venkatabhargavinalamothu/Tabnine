@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop</title>
+    <style>
+        body {
+            background-color: #F8F8FF;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #0066CC;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        section div {
+            width: 250px;
+            margin: 10px;
+            text-align: center;
+            background-color: #FFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        section div img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        section div h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        section div p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        section div button {
+            background-color: #0066CC;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #0066CC;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            section div {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Flavors</a>
+        <a href="#">Locations</a>
+        <a href="#">Contact</a>
+    </header>
+
+    <section>
+        <div>
+            <img src="ice-cream-1.jpg" alt="Ice Cream 1">
+            <h2>Vanilla Delight</h2>
+            <p>A classic favorite with a rich, creamy taste.</p>
+            <p>$4.50</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div>
+            <img src="ice-cream-2.jpg" alt="Ice Cream 2">
+            <h2>Chocolate Frenzy</h2>
+            <p>Indulge in our rich, velvety chocolate ice cream.</p>
+            <p>$4.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div>
+            <img src="ice-cream-3.jpg" alt="Ice Cream 3">
+            <h2>Strawberry Bliss</h2>
+            <p>A refreshing blend of fresh strawberries and cream.</p>
+            <p>$5.25</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2022 Ice Cream Shop. All rights reserved.
+    </footer>
+</body>
+</html>
